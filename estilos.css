@@ -193,6 +193,8 @@ body {
     margin-left: 5px;
 }
 
+/* Borda separadora */
+
 .borda-separadora {
     width: 28px;
     height: 85px;
@@ -298,4 +300,21 @@ body {
     color: #139EF2;
     font-size: 12px;
     font-weight: 500;
+}
+
+/* Responsividade (max: 935px) */
+@media (max-width: 935px) {
+    .direita {
+        display: none;
+    }
+
+    .topo {
+        width: 100%;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
