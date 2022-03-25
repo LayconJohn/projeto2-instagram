@@ -254,6 +254,10 @@ body {
     margin-top: 17px;
 }
 
+.recomendados ion-icon {
+    margin-right: 11px;
+}
+
 .sugestoes-direita p {
     margin-top: 37px;
 }
