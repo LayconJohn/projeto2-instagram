@@ -192,6 +192,11 @@ body {
     font-size: 14px;
     margin-left: 5px;
 }
+
+.borda-separadora {
+    width: 28px;
+    height: 85px;
+}
 /* Div direita */
 .direita {
     width: 509px;
