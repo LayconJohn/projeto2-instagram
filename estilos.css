@@ -207,12 +207,15 @@ body {
     height: 10%;
     margin-top: 88px;
     display: flex;
+    align-items: center;
+    margin-left: 15px;
 }
 
 .perfil img {
     width: 56px;
     height: 56px;
     border-radius: 28px;
+    margin-right: 16px;
 }
 
 .perfil-nome h5 {
