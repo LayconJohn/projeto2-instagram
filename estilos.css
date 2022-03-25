@@ -192,7 +192,7 @@ body {
 }
 /* Div direita */
 .direita {
-    width: 50%;
+    width: 509px;
 }
 
 .perfil {
@@ -230,6 +230,7 @@ body {
     height: 230px;
     display: flex;
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .sugestoes-esquerda {
@@ -247,9 +248,15 @@ body {
 }
 
 .rodape {
-    background-color: gray;
-    height: 10%;
-    margin-top: 33px;
+    padding-top: 33px;
+    margin-left: 33px;;
+}
+
+.rodape p {
+    margin-bottom: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
 }
 
 /* Cores */
