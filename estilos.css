@@ -54,7 +54,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px;
+    border: 1px solid #DBDBDB;;
     border-color: #DBDBDB;
 }
 
@@ -63,8 +63,8 @@ body {
     font-size: 14px;
 }
 
-.menu {
-
+.menu ion-icon {
+    margin-right: 20px;
 }
 
 /* Conteúdo (Geral) */
@@ -89,9 +89,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #DBDBDB;
+    border: 1px solid  #DBDBDB;
     border-radius: 3px;
-
+    padding-top: 18px;
+    padding-bottom: 14px;
+    padding-left: 18px;
 }
 
 .storie img {
@@ -221,7 +223,6 @@ body {
 
 
 .borda-horizontal {
-    background-color: #FAFAFA;
     width: 293px;
     height: 9px;
 }
@@ -262,7 +263,7 @@ body {
 /* Cores */
 
 .branco {
-    background-color: #FFFFFF;
+    background-color: rgba(255,255,255, 0.9)    ;
 }
 
 .cinza-fundo {
