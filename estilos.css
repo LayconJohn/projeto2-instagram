@@ -18,6 +18,7 @@ body {
     width: 100%;
     height: 54px;
     display: none;
+    margin: 0 auto;
 }
 
 .topo {
@@ -26,6 +27,7 @@ body {
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
 }
 
 .logo {
@@ -77,7 +79,7 @@ body {
 .conteudo {
     height: 1000px;
     display: flex;
-    margin-left: 215px;;
+    margin: 0 auto;
 }
 
 /* Div esquerda */
@@ -118,8 +120,8 @@ body {
 
 .post {
     color: white;
-    width: 614px;
-    height: 749px;
+    width: 100%;
+    height: 100%;
     margin-bottom: 36px;
     margin-top: 24px;
     display: flex;
@@ -159,7 +161,7 @@ body {
 }
 
 .post img {
-    width: 612px;
+    width: 100%;
     height: 612px;
 }
 
@@ -285,6 +287,7 @@ body {
     width: 100%;
     height: 54px;
     display: none;
+    margin: 0 auto;
 }
 
 /* Cores */
@@ -330,6 +333,8 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
+
 }
 
 /* Responsividade (max: 614px) */
@@ -350,13 +355,16 @@ body {
         align-items: center;
         padding-left: 21px;
         padding-right: 22px;
+        position: fixed;
+        top: 0px;
+        left: 0px; 
     }
 
     .topo-mobile img {
         width: 103px;
         height: 29px;
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 150px;
+        margin-right: 150px;
     }
 
     .topo-mobile ion-icon {
