@@ -11,10 +11,6 @@ body {
     width: 100%;
 }
 
-.tela {
-    height: 100%;
-    width: 100%;
-}
 
 /* Topo*/
 
@@ -284,6 +280,14 @@ body {
     width: 300px;
 }
 
+/* barra inferior (mobile) */
+.barra-inferior {
+    width: 100%;
+    height: 54px;
+    background-color: red;
+    display: none;
+}
+
 /* Cores */
 
 .branco {
@@ -332,6 +336,10 @@ body {
 /* Responsividade (max: 614px) */
 @media (max-width: 614px) {
 
+    .direita {
+        display: none;
+    }
+
     .topo {
         display: none;
     }
@@ -355,5 +363,13 @@ body {
     .topo-mobile ion-icon {
         width: 18px;
         height: 18px;
+    }
+
+    .barra-inferior {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;  
     }
 }
