@@ -77,6 +77,7 @@ body {
 
 /* Conteúdo (Geral) */
 .conteudo {
+    width: 935px;
     height: 1000px;
     display: flex;
     margin: 0 auto;
@@ -127,6 +128,12 @@ body {
     margin-top: 24px;
     display: flex;
     flex-direction: column;
+}
+
+post img {
+    width: 32px;
+    height: 32px;
+    border-radius: 13px;
 }
 
 .aba-superior {
