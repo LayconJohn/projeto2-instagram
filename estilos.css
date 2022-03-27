@@ -82,6 +82,7 @@ body {
     display: flex;
     margin: 0 auto;
     justify-content: center;
+    overflow-y: hidden;
 }
 
 /* Div esquerda */
@@ -104,6 +105,7 @@ body {
     padding-top: 18px;
     padding-bottom: 14px;
     padding-left: 18px;
+    overflow-x: hidden;
 }
 
 
