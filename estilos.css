@@ -229,6 +229,10 @@ a {
     position: relative;
 }
 
+.icones-inferior ion-icon {
+    margin-right: 17px;
+}
+
 .icones-inferior .salvar {
     position: absolute;
     top: 4px;
@@ -344,6 +348,27 @@ a {
     margin: 0 auto;
 }
 
+/* Estilos para o cursor */
+
+.storie img:hover {
+    cursor: pointer;
+}
+
+.seta-stories ion-icon:hover {
+    cursor: pointer;
+}
+
+.aba-superior .opcoes:hover {
+    cursor: pointer;
+}
+
+.icones-inferior ion-icon:hover {
+    cursor: pointer;
+}
+
+.sugestoes-direita h6,p:hover {
+    cursor: pointer;
+}
 /* Cores */
 
 .branco {
