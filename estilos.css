@@ -78,7 +78,7 @@ body {
 /* Conteúdo (Geral) */
 .conteudo {
     width: 935px;
-    height: 1000px;
+    height: auto;
     display: flex;
     margin: 0 auto;
     justify-content: center;
