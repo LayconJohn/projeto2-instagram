@@ -11,6 +11,10 @@ body {
     width: 100%;
 }
 
+/* Links */
+a {
+    text-decoration: none;
+}
 
 /* Topo*/
 
@@ -162,11 +166,16 @@ body {
     border: 3px solid  #DBDBDB;
 }
 
-post img {
+.post img {
     width: 32px;
     height: 32px;
     border-radius: 13px;
     margin: 1px;
+}
+
+.post a {
+    text-decoration: none;
+    font-size: bold;
 }
 
 .aba-superior {
