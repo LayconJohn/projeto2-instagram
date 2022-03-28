@@ -130,17 +130,17 @@ body {
     
 }
 
-.seta-direita {
+.seta-stories {
     position: absolute;
     right: 9px;
     top: 46px;
 }
 
-.seta-direita ion-icon {
+.seta-stories ion-icon {
     color: #FFFFFF;
     width: 26px;
     height: 26px;
-    
+
 }
 
 /* Posts */
@@ -249,15 +249,17 @@ post img {
     width: 28px;
     height: 85px;
 }
+
 /* Div direita */
+
 .direita {
-    width: 509px;
+    width: 100%;
 }
 
 .perfil {
     background-color: rgba(229, 229, 229, 0.05); 
     height: 10%;
-    margin-top: 88px;
+    margin-top: 57px;
     display: flex;
     align-items: center;
     margin-left: 15px;
@@ -308,9 +310,10 @@ post img {
     margin-right: 11px;
 }
 
-.sugestoes-direita p {
+.sugestoes-direita > p {
     margin-top: 37px;
 }
+
 
 .rodape {
     padding-top: 33px;
@@ -376,6 +379,14 @@ post img {
         align-items: center;
     }
 
+    .topo {
+        width: 100%;
+    }
+
+    .stories {
+        width: 100%;
+    }
+
 
 }
 
@@ -424,5 +435,9 @@ post img {
         left: 0px;  
         padding-left: 19px;
         padding-right: 17px;
+    }
+
+    .stories {
+        width: 100%;
     }
 }
